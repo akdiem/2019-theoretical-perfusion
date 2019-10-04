@@ -3,6 +3,9 @@ language: generic
 before_install:
   # Install makeindex, if you do not use an index you can remove this (also remove the extra makeindex call).
   - sudo apt-get install texlive-binaries
+  - mkdir $HOME/.fonts
+  - cp -a $TRAVIS_BUILD_DIR/fonts/. $HOME/.fonts/
+  - fc-cache -f -v
 
 install:
   # Silent install from conda docs
