@@ -16,39 +16,36 @@
 
 % Add additional packages here if required
 \usepackage{siunitx}
+\usepackage{graphicx}
+
+% package options
+\graphicspath{{./figures/}}
 
 % Update article type if known
 \papertype{Original Article}
 % Include section in journal if known, otherwise delete
 \paperfield{Journal Section}
 
-\title{This is my title}
+\title{A theoretical assessment of organ perfusion under large strain}
 
 % List abbreviations here, if any. Please note that it is preferred that abbreviations be defined at the first instance they appear in the text, rather than creating an abbreviations list.
 \abbrevs{ABC, a black cat; DEF, doesn't ever fret; GHI, goes home immediately.}
 
 % Include full author names and degrees, when required by the journal.
 % Use the \authfn to add symbols for additional footnotes and present addresses, if any. Usually start with 1 for notes about author contributions; then continuing with 2 etc if any author has a different present address.
-\author[1\authfn{1}]{Author One PhD}
-\author[2\authfn{1}]{Author A.~Two MD}
-\author[2\authfn{2}]{Author Three PhD}
-\author[2]{Author B.~Four}
-
-\contrib[\authfn{1}]{Equally contributing authors.}
+\author[1]{Alexandra K.~Diem PhD}
+\author[2]{Kristian Valen-Sendstad PhD}
 
 % Include full affiliation details for all authors
-\affil[1]{Department, Institution, City, State or Province, Postal Code, Country}
-\affil[2]{Department, Institution, City, State or Province, Postal Code, Country}
+\affil[1]{Department of Computational Physiology, Simula Research Laboratory, Fornebu, Baerum, 1364, Norway}
 
-\corraddress{Author One PhD, Department, Institution, City, State or Province, Postal Code, Country}
-\corremail{correspondingauthor@email.com}
+\corraddress{Alexandra K.~Diem PhD, Department of Computational Physiology, Simula Research Laboratory, Fornebu, Baerum, 1364, Norway}
+\corremail{alexandra@simula.no}
 
-\presentadd[\authfn{2}]{Department, Institution, City, State or Province, Postal Code, Country}
-
-\fundinginfo{Funder One, Funder One Department, Grant/Award Number: 123456, 123457 and 123458; Funder Two, Funder Two Department, Grant/Award Number: 123459}
+\fundinginfo{}
 
 % Include the name of the author that should appear in the running header
-\runningauthor{Author One et al.}
+\runningauthor{Alexandra K.~Diem et al.}
 
 \begin{document}
 
@@ -66,7 +63,7 @@ Please lay out your article using the section headings and example objects below
 
 \begin{figure}[bt]
 \centering
-\includegraphics[width=6cm]{example-image-rectangle}
+\includegraphics[width=6cm]{example-image-rectangle.png}
 \caption{Although we encourage authors to send us the highest-quality figures possible, for peer-review purposes we are can accept a wide variety of formats, sizes, and resolutions. Legends should be concise but comprehensive – the figure and its legend must be understandable without reference to the text. Include definitions of any symbols used and define/explain all abbreviations and units of measurement.}
 \end{figure}
 
